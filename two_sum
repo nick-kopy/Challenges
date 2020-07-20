@@ -1,0 +1,20 @@
+def twoSum(nums, target):
+    i = 0
+    i2 = i + 1
+    winner = 0
+    while i < len(nums):
+        target2 = target - nums[i]
+        while i2 < len(nums):
+            if nums[i2] == target2:
+                winner = 1
+                break
+            else:
+                i2 += 1
+        if winner == 1:
+            break
+        i += 1
+        i2 = i + 1
+    sols = list()
+    sols.append(i)
+    sols.append(i2)
+    return sols
