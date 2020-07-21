@@ -1,7 +1,7 @@
-# starting-out
+## Challenges
 
-I want to be a data scientist.
+This repository is just a collection of scripts I've written that I've found interesting.
 
-I am studying many new things like linear algebra, python, sql, linux.
+Most are inspired by coding challenges on LeetCode.
 
-Now I'm learning git.
+Most could be written more pythonic or time efficient but I'm still proud of my incremental progress.
